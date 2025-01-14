@@ -1,8 +1,8 @@
 "use client"
 import { useRef, useState } from "react"
 import { useFrame, Canvas } from "@react-three/fiber"
-import Header from "@/components/header"
-import { ResizablePanel, ResizablePanelGroup, ResizableHandle } from "@/components/ui/resizable"
+import Header from "@/components/shadcn/header"
+import { ResizablePanel, ResizablePanelGroup, ResizableHandle } from "@/components/shadcn/ui/resizable"
 function Box(props) {
 	// This reference gives us direct access to the THREE.Mesh object
 	const ref = useRef()
