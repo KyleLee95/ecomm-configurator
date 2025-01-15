@@ -1,4 +1,4 @@
-import { ModeToggle } from "../mode-toggle-toggle"
+import { ModeToggle } from "./mode-toggle"
 
 const items = [
 	{
